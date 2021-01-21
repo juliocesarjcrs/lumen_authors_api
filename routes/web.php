@@ -14,7 +14,7 @@
 */
 
 $router->get('/', function () use ($router) {
-    return $router->app->version();
+    return 'Hola';
 });
 $router->get('/authors', 'AuthorController@index');
 $router->post('/authors', 'AuthorController@store');

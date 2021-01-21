@@ -15,8 +15,9 @@ services:
       
     ports:
       - 8000:80 # con el 80 es cuando es v -host
-    # volumes:
-    #   - .:/var/www/html
+    volumes:
+      - .:/var/www/html
+      - /var/www/html/vendor
     # depends_on:
     #   - db
     networks:
