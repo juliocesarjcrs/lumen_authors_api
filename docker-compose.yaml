@@ -1,6 +1,6 @@
 version: "3.3"
 services:
-  backend:
+  lumenen_authors:
     container_name: lumenen_authors
     build:
       context: .
